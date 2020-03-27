@@ -1,0 +1,123 @@
+/*General Styles */
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} 
+
+html, body
+{
+    background-color: rgb(20, 29, 38);
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+section
+{
+    align-items: baseline;
+    align-content: stretch;
+    background-color: rgb(20, 29, 38);
+    display: flex;
+    letter-spacing: -31.25%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-family: 'Open Sans', sans-serif;
+    justify-content: space-between;
+    min-height: 100%;
+    min-width: 100%;
+    padding-top: 14em;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Swiper Styles */
+.swiper-container
+{
+    width: 100%;
+}
+.swiper-slide
+{
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 25%;
+}
+.swiper-slide .imgBox
+{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.swiper-slide .imgBox img
+{
+    width: 100%;
+}
+.swiper-slide .details
+{
+    padding: 2%;
+}
+.swiper-slide .details h3
+{
+    color: black;
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 100%;
+    text-align: center;
+}
+
+.swiper-slide .details h3 span
+{
+    color: rgb(88, 88, 88);
+    font-size: 70%;
+}
+
+/* Contact Styles */
+input, select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Navbar Styles */
+#mainNavbar
+{
+    font-family: 'Audiowide';
+    font-size: 150%;
+    font-weight: 100;
+}
+
+#mainNavbar .nav-link
+{
+    color: white;
+}
+
+#mainNavbar .nav-link:hover
+{
+    color: rgb(181, 15, 255);
+}

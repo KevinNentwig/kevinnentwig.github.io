@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>Kevin Nentwig</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
-<body>
 
+<body>
     <!--  Navigation Bar -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md bg-dark fixed-top py-0">
         <a href="./index.html" class="navbar-brand">KEVIN NENTWIG</a>
@@ -51,23 +52,36 @@
         </div>
     </nav>
 
-    <!-- Index Page Content -->
-    <section id="indexContent" class="container-fluid">
-        <div class="row justify-content-between align-items-center"> 
-            <div id="headingGroup" class="col-md-8 text-center">
-                <h3>
-                    My name is Kevin and I am a Virtual Reality Developer.
-                </h3>
-                <hr>
-                <p>
-                    Welcome to my personal portfolio website.
-                    <hr>
-                    Here you can view some of my personal projects and social media.
-                </p>    
-            </div>
-            <div class="col-md-4">
-                <img src="./images/personal/myself/glider-flying.jpg" alt="Image" class="img-fluid center rounded">
-            </div>
+    <!-- Contact Content -->
+    <section id="contact" class="">
+        <div class="container">
+            <h3>
+                Contact
+            </h3>
+            <form class ="gform" method="POST" data-email="example@email.net"
+            action="https://script.google.com/macros/s/AKfycbyRlGmsTP4JQ7EUCSFzDUCfZZEHPrfAdJ3qIm1A/exec">
+                <div style="display:none" class="thankyou_message">
+                    <h1 class="text-center">
+                        Thanks for contacting me!
+                    </h1>
+                    <h1 class="text-center">
+                        We will get back to you soon!
+                    </h1>
+                </div>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="example@email.net" required>
+
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
+        
+                <input type="submit" value="Send">
+            </form>
         </div>
     </section>
 
@@ -82,10 +96,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
     <!-- Popper JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-</body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="./scripts/scripts.js"></script>
+<script data-cfasync="false" type="text/javascript" src="../scripts/form-submission-handler.js"></script></body>
 </html>

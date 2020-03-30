@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Home</title>
+    <title>About</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-
     <!--  Navigation Bar -->
     <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md bg-dark fixed-top py-0">
         <a href="./index.html" class="navbar-brand">KEVIN NENTWIG</a>
@@ -51,22 +51,38 @@
         </div>
     </nav>
 
-    <!-- Index Page Content -->
-    <section id="indexContent" class="container-fluid">
-        <div class="row justify-content-between align-items-center"> 
-            <div id="headingGroup" class="col-md-8 text-center">
+    <!-- About Content -->
+    <section id="about" class="container-fluid">
+        <div class="row justify-content-between align-items-center">
+            <div class="col-md-4">
+                <img src="./images/personal/myself/karlsruhe.jpg" alt="Image" class="img-fluid center rounded">
+            </div>
+            <div id="aboutGroup" class="col-md-8">
                 <h3>
-                    My name is Kevin and I am a Virtual Reality Developer.
+                    About Me
                 </h3>
                 <hr>
                 <p>
-                    Welcome to my personal portfolio website.
+                    Born and raised in Tennessee.
+                    I am a <span id="age"> </span> year old software developer currently living in Berlin.
+                    I got my BS degree at Middle Tennessee State University in Computer Engineering Technology, with a
+                    Minor in Computer Science.
+                    During my studies I learned how to properly design, develop, and optimize electronic circuits,
+                    computer hardware, software,
+                    networking systems, and embedded computer systems.
                     <hr>
-                    Here you can view some of my personal projects and social media.
-                </p>    
-            </div>
-            <div class="col-md-4">
-                <img src="./images/personal/myself/glider-flying.jpg" alt="Image" class="img-fluid center rounded">
+                    After several years of working on more hardware related projects, I became more
+                    interested in the software side of things, specifically in the Virtual Reality Development Field due
+                    to the endless applications of
+                    this technology. Since then I have been spending the majority of my time learning and developing
+                    software.
+                    <hr>
+                    Programming now fills me with great joy knowing that I have created something special and unique
+                    that can be used for the benefit of
+                    others. Every task I am given gets my full attention to ensure not only till the client/customer is
+                    satisfied, but also that I personally
+                    am satisfied with my own work and accomplishment.
+                </p>
             </div>
         </div>
     </section>
@@ -82,10 +98,18 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
     <!-- Popper JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap JavaScript -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="../scripts/age.js"></script>
 </body>
 </html>

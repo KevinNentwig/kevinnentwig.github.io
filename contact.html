@@ -79,7 +79,16 @@
         
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea>
-        
+                
+                <label for="gdprcheckbox">
+                    I take your privacy seriously and will only use your personal information in order to provide products and/or
+                    services you have requested from me. However, from time to time I may like to contact you with details of other services I provide. 
+                    If you consent to me contacting you for this purpose please tick to confirm.
+                </label>
+
+                <input type="checkbox" id="gdprcheckbox" name="gdprcheckbox" value="GDPR" required>
+                <label for="checkbox" id ="gdprLabel">I Agree</label>
+
                 <input type="submit" value="Send">
             </form>
         </div>
